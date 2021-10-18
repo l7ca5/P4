@@ -1,0 +1,35 @@
+def test_pythagore (a,b,c):
+    if a**2+b**2==c**2 :
+        return True
+    else :
+        return False
+
+def valeur_absolue (x):
+    if x>0 :
+        return x
+    elif x<0 :
+        return -x
+    else :
+        return 0
+
+def max2(a,b):
+    if a>b :
+        return a
+    elif b>a :
+        return b
+    else :
+        return "a=b"
+        
+def max3(a,b,c):
+    if max2(a,b)>c :
+        return max2(a,b)
+    elif c>max2(a,b) :
+        return c
+    else :
+        return c
+        
+def puissance(x,k):
+    s=1
+    for i in range(0,k):
+        s=s*x
+    return s
