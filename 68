@@ -1,0 +1,22 @@
+from turtle import *
+
+def triangle(n):
+    down()
+    begin_fill()
+    for i in range (3):
+        forward(n)
+        left(120)
+    end_fill()
+    up()
+
+triangle(30)
+goto(-30,0)
+triangle(30)
+goto(-15,-25)
+triangle(30)
+
+triangle(30)
+goto(-30,0)
+triangle(30)
+goto(-15,25)
+triangle(30)
